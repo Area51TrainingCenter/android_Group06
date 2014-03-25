@@ -6,8 +6,9 @@
     <string name="hello_world">Hello world!</string>
     
     
-    
     <string name="textotxtnombre">Ingrese un nombre</string>
     <string name="textotxtboton">Grabar</string>
+    
+    <string name="textoerror">Ingrese un nombre correcto</string>
 
 </resources>
