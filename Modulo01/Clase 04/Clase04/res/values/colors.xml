@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="titulo_programa">#1F8AD0</color>
+    <color name="fondo_raya">#4D4D4D</color>
+    <color name="descripcion_programa">#8C8C8C</color>
+    <color name="subtitulo">#8C8C8C</color>
+    
+</resources>

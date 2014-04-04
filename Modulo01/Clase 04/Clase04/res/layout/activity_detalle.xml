@@ -1,0 +1,183 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imagePrograma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="#000"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/sample_3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/nombrePrograma"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/texto_nombre"
+                    android:textColor="@color/titulo_programa"
+                    android:paddingBottom="10dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                    
+                    <LinearLayout
+                        android:background="@color/fondo_raya"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:orientation="vertical"
+                         />
+
+                    <TextView
+                        android:id="@+id/descripcionPrograma"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_descripcion"
+                        android:paddingTop="5dp"
+                        android:textColor="@color/descripcion_programa"
+                        android:paddingBottom="5dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                    
+                    
+                    <LinearLayout
+                        android:background="@color/fondo_raya"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:orientation="vertical"
+                         />
+                    
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/horario"
+                        android:textColor="@color/titulo_programa"
+                        android:paddingRight="3dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/horario_detalle"
+                        android:textColor="@color/subtitulo"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                </LinearLayout>
+                
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="3dp"
+                        android:text="@string/clasificacion"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/titulo_programa" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/clasificacion_detalle"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/subtitulo" />
+
+                </LinearLayout>
+                
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="3dp"
+                        android:text="@string/genero"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/titulo_programa" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/genero_detalle"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/subtitulo" />
+
+                </LinearLayout>
+                
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="3dp"
+                        android:text="@string/grupo"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/titulo_programa" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/grupo_detalle"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/subtitulo" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.aea51.custom.NuevoListView
+                android:id="@+id/listaPrograma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </com.aea51.custom.NuevoListView>
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

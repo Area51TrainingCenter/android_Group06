@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clase04</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="textoboton">VER VOD</string>
+    <string name="textouno">Ahora en Vivo</string>
+    <string name="textodos">VIDAS</string>
+    <string name="textotres">Próximo programa: El Angelus</string>
+    <string name="textodestacado">DESTACADOS</string>
+    <string name="textocargando">Cargando Imagen</string>
+    <string name="title_activity_detalle">DetalleActivity</string>
+
+    <string name="texto_nombre" >Los Amores de Polo</string>
+    <string name="texto_descripcion" >Este es un programa donde explican como enamoraron a Susy Diaz y el x q del 13</string>
+    
+    
+    <string name="horario">HORARIO:</string>
+    <string name="horario_detalle">Lunes - Miercoles - Viernes</string>
+    
+    
+    <string name="clasificacion">CLASIFICACIÓN:</string>
+    <string name="clasificacion_detalle">Mayores de 18 años</string>
+    
+    <string name="genero">GENERO:</string>
+    <string name="genero_detalle">Entretenimiento</string>
+    
+    <string name="grupo">GRUPO:</string>
+    <string name="grupo_detalle">AmericaTv</string>
+    <string name="titulo_video">Titulo Video</string>
+    <string name="descripcion_video">Descripcion Video</string>
+    
+    
+    
+</resources>

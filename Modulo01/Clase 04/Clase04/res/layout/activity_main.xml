@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               
+                 >
+	                
+	            <ImageView
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:adjustViewBounds="true"
+	                android:contentDescription="@string/app_name"
+	                android:src="@drawable/sample_0" />
+
+	            <ImageView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center"
+	                android:contentDescription="@string/app_name"
+	                android:src="@drawable/player" />
+                
+            </FrameLayout>
+            
+            <FrameLayout
+                android:background="@drawable/fondolinear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:layout_margin="5dp"
+                android:paddingBottom="5dp"
+                 >
+	            
+	            <LinearLayout
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:orientation="vertical"
+	                 >
+	                 <LinearLayout 
+		                android:layout_width="match_parent"
+		                android:layout_height="wrap_content"
+		                android:orientation="horizontal">
+		                     
+		                <TextView
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:text="@string/textouno"
+		                    android:textColor="#1F8AD2"
+		                    android:textAppearance="?android:attr/textAppearanceSmall" />
+		                 	                
+		                <TextView
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:textColor="#B7B7B7"
+		                    android:paddingLeft="5dp"
+		                    android:text="@string/textodos"
+		                    android:textAppearance="?android:attr/textAppearanceSmall" />
+		                 	                
+	                     
+	                 </LinearLayout>        
+		                <TextView
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:textColor="#8E8E8E"
+		                    android:text="@string/textotres"
+		                    android:textAppearance="?android:attr/textAppearanceSmall" />
+		                 	              
+
+	            </LinearLayout>
+	                
+	            
+	            
+	            <Button
+	                    android:background="@drawable/fondoboton"
+	                    style="?android:attr/buttonStyleSmall"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="right|center_vertical"
+	                    android:paddingLeft="4dp"
+	                    android:paddingRight="4dp"
+	                    android:textColor="#FFF"
+	                    android:layout_marginRight="5dp"
+	                    android:text="@string/textoboton" />
+	            
+                
+	        </FrameLayout>
+			<LinearLayout
+                android:background="@drawable/fondoboton"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"			   
+			    android:orientation="vertical" >
+				    
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:paddingTop="7dp"
+	                android:textColor="#FFF"
+	                android:layout_gravity="center"
+	                android:text="@string/textodestacado" />
+
+			    
+			</LinearLayout>
+            
+	            <com.aea51.custom.NuevoGridView
+	                android:id="@+id/matriz"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:numColumns="2" >
+	            </com.aea51.custom.NuevoGridView>
+	            
+        </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>
+
