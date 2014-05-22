@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        
+    <color name="background_white">#FFFFFF</color>    
+    <color name="color_name">#292F33</color>
+    <color name="color_user_name">#8899AE</color>
+    <color name="color_text">#2F2F2F</color>
+    <color name="color_date">#2FC2F1</color>   
+    
+    
+</resources>
