@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clase04b</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="texto_botnoA">botonA</string>
+    <string name="texto_botnoB">botonB</string>
+    
+    <string name="texto_subBotnoA">subBotonA</string>
+    <string name="texto_subBotnoB">subBotonB</string>
+    <string name="texto_subBotnoC">subBotonC</string>
+    <string name="texto_subBotnoD">subBotonD</string>
+
+</resources>

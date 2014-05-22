@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Practica01</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="textoNombre">Ingrese un Nombre</string>
+    <string name="textoNombreError">Ingrese un Nombre Valido</string>
+    <string name="botonIngresa">Ingresar</string>
+
+    <string-array name="lista_array">
+        <item>Modificar</item>
+        <item>Eliminar</item>
+    </string-array>
+
+</resources>
