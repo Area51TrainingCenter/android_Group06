@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clase05</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ahoraEnVivo">Ahora en Vivo:</string>
+    <string name="vidas">Vidas</string>
+    <string name="proximo">Próximo Programa: El Angelus</string>
+    <string name="verVideo">Ver VOD</string>
+    <string name="destacado">Destacados</string>
+    <string name="titulo">El Puente</string>
+    <string name="descripcion">Información actual acerca de la vida de la Iglesia local y universal. Preocupaciones de hoy y que atañen a todo católico. \nCon José Antonio Benito</string>
+    <string name="horario">Horario</string>
+    <string name="clasificacion">Clasificación:</string>
+    <string name="genero">Genero: Religioso</string>
+    <string name="grupo">Grupo: PAX Producciones</string>
+    <string name="title_activity_datail">DatailActivity</string>
+
+</resources>

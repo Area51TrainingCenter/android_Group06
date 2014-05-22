@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <ImageView
+                android:id="@+id/imageProgam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="#000"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/sample_0" />
+
+            <LinearLayout
+                android:background="@drawable/fondolinear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="3dp" >
+
+                <TextView
+                    android:id="@+id/nameProgram"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/texto_azul"
+                    android:text="@string/app_name"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <LinearLayout 
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fondo_raya" />
+                
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/texto_descripcion_programa"
+                    android:textColor="@color/texto_plomo"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp" />
+
+                <LinearLayout 
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fondo_raya" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_horario"
+                        android:textColor="@color/texto_azul"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_horario_detalle"
+                        android:textColor="@color/texto_plomo"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_clasificacion"
+                        android:textColor="@color/texto_azul"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_clasificacion_detalle"
+                        android:textColor="@color/texto_plomo"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_genero"
+                        android:textColor="@color/texto_azul"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_genero_detalle"
+                        android:textColor="@color/texto_plomo"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_grupo"
+                        android:textColor="@color/texto_azul"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/texto_grupo_detalle"
+                        android:textColor="@color/texto_plomo"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </LinearLayout>
+                
+            </LinearLayout>
+
+            <com.area51.custom.NuevoListView
+                android:id="@+id/nuevoListView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </com.area51.custom.NuevoListView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
