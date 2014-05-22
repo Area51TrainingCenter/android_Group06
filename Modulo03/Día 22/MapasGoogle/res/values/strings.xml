@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MapasGoogle</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="textoNormal">Normal</string>
+    <string name="textoHibrido">Hibrido</string>
+    <string name="textoTerreno">Terreno</string>
+    <string name="textoSatelite">Satélite</string>
+    
+    <string name="markerTitulo">Aqui estoy</string>
+    <string name="markerDescripcion">Aquí hace frío Y_Y</string>
+
+</resources>

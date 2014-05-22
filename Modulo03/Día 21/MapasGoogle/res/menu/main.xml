@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.area51.mapasgoogle.MainActivity" >
+
+    <item
+        android:showAsAction="ifRoom"
+        android:title="@string/app_name">
+        <menu>
+            <item
+                android:id="@+id/btnNormal"
+                android:showAsAction="always"
+                android:title="@string/textoNormal"/>
+            <item
+                android:id="@+id/btnHibrido"
+                android:showAsAction="always"
+                android:title="@string/textoHibrido"/>
+            <item
+                android:id="@+id/btnTerreno"
+                android:showAsAction="always"
+                android:title="@string/textoTerreno"/>
+            <item
+                android:id="@+id/btnSatelite"
+                android:showAsAction="always"
+                android:title="@string/textoSatelite"/>
+        </menu>
+    </item>
+
+</menu>
