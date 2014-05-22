@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.area51.clase04b.MainActivity" >
+
+    <!--
+    <item
+        android:id="@+id/botonA"
+        android:showAsAction="ifRoom"
+        android:title="@string/texto_botnoA"/>
+    -->
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/menu"
+        android:showAsAction="ifRoom">
+        <menu>
+
+            <!--
+            <item
+                android:id="@+id/botonSubMenuA"
+                android:icon="@drawable/vivoon"
+                android:showAsAction="ifRoom"
+                android:title="@string/texto_subBotnoA"/>
+            <item
+                android:id="@+id/botonSubMenuB"
+                android:icon="@drawable/vodoff"
+                android:showAsAction="ifRoom"
+                android:title="@string/texto_subBotnoB"/>
+            <item
+                android:id="@+id/botonSubMenuC"
+                android:showAsAction="ifRoom"
+                android:title="@string/texto_subBotnoC"/>
+            <item
+                android:id="@+id/botonSubMenuD"
+                android:showAsAction="ifRoom"
+                android:title="@string/texto_subBotnoD"/>
+            -->
+        </menu>
+    </item>
+
+</menu>
